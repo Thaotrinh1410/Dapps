@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
+					}
+				],
+				"name": "setMyString",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Block/Chapter7_5/Strings.sol": "WorkingWithString"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Block/Chapter7_5/Strings.sol": {
+			"keccak256": "0x1db8535e36a28932658ad112bf0452c748f1fe7aa2314db5696f885f7945f44c",
+			"urls": [
+				"bzz-raw://250abaea8393bb7360679e55c4a600d3ec6413e8abfffcb2d39a8e21e6413e95",
+				"dweb:/ipfs/QmQzdRuMX9Bnb36XJLXdo5TJrcf4tFzFtsZLEWktZoPcVG"
+			]
+		}
+	},
+	"version": 1
+}
